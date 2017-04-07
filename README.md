@@ -8,17 +8,14 @@ TODO: Write short description here and embulk-filter-affix.gemspec file.
 
 ## Configuration
 
-- **option1**: description (integer, required)
-- **option2**: description (string, default: `"myvalue"`)
-- **option3**: description (string, default: `null`)
+- **affix**: affix(prefix or suffix) (string, default: `"prefix"`)
 
 ## Example
 
 ```yaml
 filters:
   - type: affix
-    option1: example1
-    option2: example2
+    affix: suffix
 ```
 
 
